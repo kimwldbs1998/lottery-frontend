@@ -6,7 +6,7 @@
  */
 const { chromium } = require('playwright');
 
-const FRONTEND = 'http://localhost:5173';
+const FRONTEND = 'http://localhost:3000';
 const BACKEND = 'http://localhost:8080/api';
 
 function adminKey() {
