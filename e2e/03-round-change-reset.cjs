@@ -1,7 +1,7 @@
 /** Third smoke test: round-change reset behavior (requirement section 3) mid-selection. */
 const { chromium } = require('playwright');
-const FRONTEND = 'http://localhost:3000';
-const BACKEND = 'http://localhost:8080/api';
+const FRONTEND = 'http://localhost:2000';
+const BACKEND = 'http://localhost:7070/api';
 const ADMIN_KEY = process.env.ADMIN_KEY || 'test-admin-key-12345';
 
 let browser, page;

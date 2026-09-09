@@ -10,13 +10,13 @@ npm install
 npm run dev
 ```
 
-`http://localhost:3000` 에서 확인할 수 있습니다.
+`http://localhost:2000` 에서 확인할 수 있습니다.
 
-기본적으로 백엔드가 `http://localhost:8080/api` 에서 실행 중이라고 가정합니다. 다른 주소를 쓰려면
+기본적으로 백엔드가 `http://localhost:7070/api` 에서 실행 중이라고 가정합니다. 다른 주소를 쓰려면
 `.env` 파일의 `VITE_API_BASE_URL` 값을 바꿔주세요.
 
 ```
-VITE_API_BASE_URL=http://localhost:8080/api
+VITE_API_BASE_URL=http://localhost:7070/api
 ```
 
 ## 빌드

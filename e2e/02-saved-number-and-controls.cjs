@@ -1,6 +1,6 @@
 /** Second smoke test: login flow, auto-select, reset, saved-number save/load/delete. */
 const { chromium } = require('playwright');
-const FRONTEND = 'http://localhost:3000';
+const FRONTEND = 'http://localhost:2000';
 
 let browser, page;
 const errors = [];

@@ -6,8 +6,8 @@
  */
 const { chromium } = require('playwright');
 
-const FRONTEND = 'http://localhost:3000';
-const BACKEND = 'http://localhost:8080/api';
+const FRONTEND = 'http://localhost:2000';
+const BACKEND = 'http://localhost:7070/api';
 
 function adminKey() {
   return process.env.ADMIN_KEY || 'test-admin-key-12345';
